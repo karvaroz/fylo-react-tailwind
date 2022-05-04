@@ -16,7 +16,7 @@ const Benefits = () => {
                   <div className="text-center w-11/12 mx-auto">
                       <img
                           className="mx-auto"
-                          src="images/icon-security.svg"
+                          src="/images/icon-security.svg"
                           style={{ height: "78px", width: "auto"}}
                           alt="security"
                       />

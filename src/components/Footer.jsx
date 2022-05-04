@@ -32,7 +32,7 @@ const Footer = () => {
               </div>
           </section>
           <div className="container mx-auto">
-              <img className="w-36 md:w-40" src="images/logo.svg" alt="" />
+              <img className="w-36 md:w-40" src="/images/logo.svg" alt="" />
               <div className="ineline lg:flex gap-8 mt-8">
                   <div className="flex location lg:w-4/12">
                       <img src="/images/icon-location.svg" alt="" />
