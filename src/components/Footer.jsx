@@ -35,7 +35,7 @@ const Footer = () => {
               <img className="w-36 md:w-40" src="images/logo.svg" alt="" />
               <div className="ineline lg:flex gap-8 mt-8">
                   <div className="flex location lg:w-4/12">
-                      <img src="images/icon-location.svg" alt="" />
+                      <img src="/images/icon-location.svg" alt="" />
                       <p className="pl-4">
                           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
                           labore et dolore magna aliqua
@@ -43,7 +43,7 @@ const Footer = () => {
                   </div>
                   <div className="mt-6 lg:mt-0 lg:w-3/12">
                       <div className="flex items-center">
-                          <img className="phone" src="images/icon-phone.svg" alt="phone" />
+                          <img className="phone" src="/images/icon-phone.svg" alt="phone" />
                           <p className="pl-4">+1-543-123-4567</p>
                       </div>
                       <div className="flex items-center mt-2">
