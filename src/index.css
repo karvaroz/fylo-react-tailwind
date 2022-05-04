@@ -56,3 +56,32 @@ p {
 button:hover {
   opacity: 0.6;
 }
+
+#two a {
+  color: var(--cyan);
+  border-bottom: 1px solid var(--cyan);
+  width: fit-content;
+}
+
+#three img {
+  height: 27px;
+  width: 27px;
+}
+
+.bg_card {
+  background: var(--bg_testi);
+}
+
+.koma {
+  position: relative;
+}
+
+.koma::before {
+  content: url('../public/images/bg-quotes.png');
+  position: absolute;
+  width: 55px;
+  height: 45px;
+  top: -2.3em;
+  left: -0.5em;
+  z-index: -1;
+}

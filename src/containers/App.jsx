@@ -1,6 +1,8 @@
 import React from 'react'
 import Benefits from '../components/Benefits'
+import Comments from '../components/Comments'
 import Header from "../components/Header"
+import Productive from '../components/Productive'
 
 
 const App = () => {
@@ -8,6 +10,8 @@ const App = () => {
     <>
       <Header />
       <Benefits />
+      <Productive />
+      <Comments />
     </>
   )
 }
