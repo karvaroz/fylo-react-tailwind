@@ -85,3 +85,70 @@ button:hover {
   left: -0.5em;
   z-index: -1;
 }
+
+.bg_email {
+  background: var(--bg_intro);
+}
+
+#four {
+  top: -150px;
+}
+
+footer {
+  background: var(--bg_footer);
+  padding-bottom: 50px;
+}
+
+.location img {
+  width: 13px;
+  height: 18px;
+}
+
+.email {
+  width: 20px;
+  height: 16px;
+}
+
+.phone {
+  width: 18px;
+  height: 18px;
+}
+
+#four input {
+  color: var(--bg_main);
+}
+
+#two a:hover {
+  color: var(--white);
+  border-bottom: 1px solid var(--white);
+  width: min-content;
+}
+
+#two a:hover::after {
+  content: url('../public/images/icon-arrow.svg');
+}
+
+#two a::after {
+  content: url('../public/images/icon-arrow.svg');
+  width: 16px;
+  height: 16px;
+}
+
+.from_control small {
+  visibility: hidden;
+}
+
+.from_control.error small {
+  visibility: visible;
+}
+
+ion-icon:hover {
+  color: var(--cyan);
+  border-color: var(--cyan);
+}
+
+@media screen and (min-width: 375px) {
+  header {
+    background-image: url('../public/images/bg-curvy-desktop.svg');
+  }
+}
